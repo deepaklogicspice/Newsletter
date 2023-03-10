@@ -31,7 +31,7 @@ app.post("/", function(req, res){
   const url = "https://us14.api.mailchimp.com/3.0/lists/1382dda341";
   const options = {
     method: "POST",
-    auth: "deepak1:027303d9f51f2fa4dd86fe1347321afb-us14"
+    auth: "deepak1:2618c198973eaca39b4235d3a8687819-us14"
   }
 
   const request = https.request(url, options, function(response){
@@ -57,6 +57,6 @@ app.listen(3000, function(){
 })
 
 // apikey
-// 027303d9f51f2fa4dd86fe1347321afb-us14
+// 2618c198973eaca39b4235d3a8687819-us14
 // listid
 // 1382dda341
